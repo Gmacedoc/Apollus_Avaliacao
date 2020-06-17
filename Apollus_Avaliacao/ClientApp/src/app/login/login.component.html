@@ -1,0 +1,21 @@
+<form (ngSubmit)="onSubmit()" class="formPos">
+    <div class="mainDiv" align="center">
+      <mat-card style="padding: 0px; width: 380px; box-shadow: none;">   
+        <mat-card-content>
+          <div style="margin-top: 15px">
+            <mat-form-field>
+              <input matInput placeholder="E-mail" [(ngModel)]="email"  name="email" style="width: 90%" (change)="this.errorMsg = ''">
+            </mat-form-field>
+          </div>
+          <div>
+            <mat-form-field>
+              <input matInput placeholder="Senha" [(ngModel)]="password" name="Password" type="password" (change)="this.errorMsg = ''">
+            </mat-form-field>
+          </div>
+        </mat-card-content>
+        <mat-card-actions style="padding: 0px 20px 0px 20px">    
+          <button mat-raised-button color="accent">ENTRAR</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </form>

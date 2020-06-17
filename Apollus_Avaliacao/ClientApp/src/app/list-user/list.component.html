@@ -1,0 +1,27 @@
+
+<div>
+    <h1>Usuários</h1>
+    <table>
+       <thead>
+          <tr>
+             <th></th>
+             <th></th>
+          </tr>
+       </thead>
+       <tbody>
+        <tr>
+           <td></td>
+           <td></td>
+           <td></td>
+        </tr>
+          <tr *ngFor="let user of users">
+             <td>{{ user.name }}</td>
+             <td>{{ user.email }}</td>
+             <td>
+                <button mat-raised-button type="button" color="accent" (click)="editVisit(user.ID)" >Editar</button>
+                <button mat-raised-button style="margin-left: 15px;" color="accent" type="button" (click)="deleteUser(user.ID)" >Deletar</button>
+             </td>
+          </tr>
+       </tbody>
+    </table>
+  </div>

@@ -1,0 +1,29 @@
+.mat-card-header {
+    padding: 10px 0px;
+    background: #1565C0;
+    color: white;
+  }
+  
+  .mat-card {
+    font-family: Roboto,"Helvetica Neue",sans-serif
+  }
+  
+  .mat-card-title {
+    font-size: 24px;
+    font-weight: 400
+  }
+  
+  .mat-card-content {  
+    padding: 10px 15px;
+  }
+  .mat-card-content, .mat-card-header .mat-card-title, .mat-card-subtitle {
+    font-size: 14px
+  }
+
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {background-color: #f2f2f2;}

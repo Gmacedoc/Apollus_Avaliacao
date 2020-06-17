@@ -1,0 +1,30 @@
+.formPos {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .mainDiv {
+    text-align: center;  
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .coverImg {
+      object-fit: cover;
+      height: 80%;
+      margin: auto;
+  }
+  
+  mat-card-actions mat-card {
+    box-shadow: none;
+  }
+  
+  mat-form-field {
+    width: 75%;
+  }
+  
